@@ -29,28 +29,34 @@
   display: flex;
 }
 
-.container-blocos span {
+.container-blocos a {
   margin-right: 17px;
   border-radius: 10px;
   margin-bottom: 47px;
 }
 
-.bloco-preto {
-  width: 69px;
+.dark-mode {
+  width: 250px;
   height: 68px;
   background: #211D27;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.bloco-cinza {
-  width: 69px;
+.light-mode {
+  width: 250px;
   height: 68px;
-  background: #858488;
-}
-
-.bloco-vermelho {
-  width: 69px;
-  height: 68px;
-  background: #E6444F;
+  background: #FFF;
+  color: #211D27;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .subtittle {
