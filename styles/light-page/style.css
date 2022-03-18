@@ -1,0 +1,21 @@
+.body-light-page {
+    background: #FFF;
+    height: 100%;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
