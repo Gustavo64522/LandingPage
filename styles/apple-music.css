@@ -1,0 +1,75 @@
+.body-apple-music {
+    margin: 0 14rem;
+}
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.container-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container-links .display-image {
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+}
+.display-image img {
+    margin-right: 8px;
+    
+}
+
+.container-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container-main img {
+    transform: rotate(-2.01deg);
+}
+.content-infos .infos-title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 70px;
+    letter-spacing: -0.01em;
+    color: #211D27;
+    margin-bottom: 20px;
+}
+.content-infos .infos-subtitle {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 39px;
+    color: #8C8B8F;
+    margin-bottom: 40px;
+}
+.content-infos a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 194px;
+    height: 53px;
+    background: #E6444F;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #F5F5F5;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.section-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-footer .music-logo{
+    margin-right: 10px;
+}
+.section-footer .infos-footer {
+    color: #8C8B8F;
+    font-size: 22px;
+    margin-right: 5px;
+}
